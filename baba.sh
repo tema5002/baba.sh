@@ -319,7 +319,6 @@ trap 'echo -ne "\e[?25h"; exit' INT TERM
 echo -ne "\e[?25l"
 while true; do
     for i in 0 3 6 4 1 5 7 3 2 4 8 5; do
-        [[ "$running" == 0 ]] && break
         name="${textures[$i]}"
         print_sprite "$name"
         sleep 0.1
