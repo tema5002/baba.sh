@@ -256,7 +256,7 @@ texture_7
 texture_8
 )
 
-# that does not properly work in ssh and i dont care
+# that does not work in ssh and i dont care
 if [[ "$COLORTERM" =~ (truecolor|24bit) ]]; then
     truecolor=1
 else
