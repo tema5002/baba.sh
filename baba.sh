@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
+# https://github.com/tema5002/baba.sh
 
 texture_0=(
 "                        "
